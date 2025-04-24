@@ -1,0 +1,188 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --makyeetest-framer-website-instrument-sans-medium-font-family: "Instrument Sans",
+    Helvetica;
+  --makyeetest-framer-website-instrument-sans-medium-font-size: 18px;
+  --makyeetest-framer-website-instrument-sans-medium-font-style: normal;
+  --makyeetest-framer-website-instrument-sans-medium-font-weight: 500;
+  --makyeetest-framer-website-instrument-sans-medium-letter-spacing: -0.5400000214576721px;
+  --makyeetest-framer-website-instrument-sans-medium-line-height: 27px;
+  --makyeetest-framer-website-inter-bold-font-family: "Inter", Helvetica;
+  --makyeetest-framer-website-inter-bold-font-size: 50px;
+  --makyeetest-framer-website-inter-bold-font-style: normal;
+  --makyeetest-framer-website-inter-bold-font-weight: 700;
+  --makyeetest-framer-website-inter-bold-letter-spacing: 0px;
+  --makyeetest-framer-website-inter-bold-line-height: 60px;
+  --makyeetest-framer-website-inter-medium-font-family: "Inter", Helvetica;
+  --makyeetest-framer-website-inter-medium-font-size: 20px;
+  --makyeetest-framer-website-inter-medium-font-style: normal;
+  --makyeetest-framer-website-inter-medium-font-weight: 500;
+  --makyeetest-framer-website-inter-medium-letter-spacing: -0.6000000238418579px;
+  --makyeetest-framer-website-inter-medium-line-height: 24px;
+  --makyeetest-framer-website-inter-regular-font-family: "Inter", Helvetica;
+  --makyeetest-framer-website-inter-regular-font-size: 18px;
+  --makyeetest-framer-website-inter-regular-font-style: normal;
+  --makyeetest-framer-website-inter-regular-font-weight: 400;
+  --makyeetest-framer-website-inter-regular-letter-spacing: 0px;
+  --makyeetest-framer-website-inter-regular-line-height: 27px;
+  --makyeetest-framer-website-inter-semi-bold-font-family: "Inter", Helvetica;
+  --makyeetest-framer-website-inter-semi-bold-font-size: 48px;
+  --makyeetest-framer-website-inter-semi-bold-font-style: normal;
+  --makyeetest-framer-website-inter-semi-bold-font-weight: 600;
+  --makyeetest-framer-website-inter-semi-bold-letter-spacing: -1.9199999570846558px;
+  --makyeetest-framer-website-inter-semi-bold-line-height: 48px;
+  --makyeetest-framer-website-plus-jakarta-sans-bold-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --makyeetest-framer-website-plus-jakarta-sans-bold-font-size: 32px;
+  --makyeetest-framer-website-plus-jakarta-sans-bold-font-style: normal;
+  --makyeetest-framer-website-plus-jakarta-sans-bold-font-weight: 700;
+  --makyeetest-framer-website-plus-jakarta-sans-bold-letter-spacing: -0.9599999785423279px;
+  --makyeetest-framer-website-plus-jakarta-sans-bold-line-height: 57.599998474121094px;
+  --makyeetest-framer-website-plus-jakarta-sans-regular-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --makyeetest-framer-website-plus-jakarta-sans-regular-font-size: 18px;
+  --makyeetest-framer-website-plus-jakarta-sans-regular-font-style: normal;
+  --makyeetest-framer-website-plus-jakarta-sans-regular-font-weight: 400;
+  --makyeetest-framer-website-plus-jakarta-sans-regular-letter-spacing: 0px;
+  --makyeetest-framer-website-plus-jakarta-sans-regular-line-height: 27px;
+  --makyeetest-framer-website-plus-jakarta-sans-semibold-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --makyeetest-framer-website-plus-jakarta-sans-semibold-font-size: 40px;
+  --makyeetest-framer-website-plus-jakarta-sans-semibold-font-style: normal;
+  --makyeetest-framer-website-plus-jakarta-sans-semibold-font-weight: 600;
+  --makyeetest-framer-website-plus-jakarta-sans-semibold-letter-spacing: -0.9599999785423279px;
+  --makyeetest-framer-website-plus-jakarta-sans-semibold-line-height: 57.599998474121094px;
+  --makyeetest-framer-website-semantic-heading-2-font-family: "Inter", Helvetica;
+  --makyeetest-framer-website-semantic-heading-2-font-size: 44.625px;
+  --makyeetest-framer-website-semantic-heading-2-font-style: normal;
+  --makyeetest-framer-website-semantic-heading-2-font-weight: 700;
+  --makyeetest-framer-website-semantic-heading-2-letter-spacing: 0px;
+  --makyeetest-framer-website-semantic-heading-2-line-height: 57.599998474121094px;
+  --makyeetest-framer-website-semantic-item-font-family: "Inter", Helvetica;
+  --makyeetest-framer-website-semantic-item-font-size: 18.75px;
+  --makyeetest-framer-website-semantic-item-font-style: normal;
+  --makyeetest-framer-website-semantic-item-font-weight: 600;
+  --makyeetest-framer-website-semantic-item-letter-spacing: 0px;
+  --makyeetest-framer-website-semantic-item-line-height: 30px;
+  --makyeetest-framer-website-semantic-link-font-family: "Instrument Sans",
+    Helvetica;
+  --makyeetest-framer-website-semantic-link-font-size: 17px;
+  --makyeetest-framer-website-semantic-link-font-style: normal;
+  --makyeetest-framer-website-semantic-link-font-weight: 600;
+  --makyeetest-framer-website-semantic-link-letter-spacing: 0px;
+  --makyeetest-framer-website-semantic-link-line-height: 25.5px;
+  --makyeetestframerwebsitealabaster: rgba(250, 250, 250, 1);
+  --makyeetestframerwebsitealizarin-crimson: rgba(234, 34, 60, 1);
+  --makyeetestframerwebsitealto: rgba(217, 217, 217, 1);
+  --makyeetestframerwebsitebig-stone: rgba(18, 27, 47, 1);
+  --makyeetestframerwebsiteblack: rgba(1, 1, 1, 1);
+  --makyeetestframerwebsitedixie: rgba(233, 149, 23, 1);
+  --makyeetestframerwebsitedove-gray: rgba(106, 106, 106, 1);
+  --makyeetestframerwebsitefrench-gray: rgba(201, 202, 206, 1);
+  --makyeetestframerwebsitemanatee: rgba(148, 150, 157, 1);
+  --makyeetestframerwebsitemine-shaft: rgba(37, 37, 37, 1);
+  --makyeetestframerwebsiteoslo-gray: rgba(128, 133, 143, 1);
+  --makyeetestframerwebsiteshark: rgba(29, 29, 32, 1);
+  --makyeetestframerwebsiteshuttle-gray: rgba(90, 97, 110, 1);
+  --makyeetestframerwebsitesilver-chalice: rgba(166, 166, 166, 1);
+  --makyeetestframerwebsitestorm-gray: rgba(121, 123, 133, 1);
+  --makyeetestframerwebsitethunder: rgba(34, 34, 34, 1);
+  --makyeetestframerwebsitewhite: rgba(255, 255, 255, 1);
+  --makyeetestframerwebsitewhite-15: rgba(255, 255, 255, 0.15);
+  --makyeetestframerwebsitewhite-20: rgba(255, 255, 255, 0.2);
+  --makyeetestframerwebsitewhite-white: rgba(255, 255, 255, 1);
+  --makyeetestframerwebsitewild-sand: rgba(246, 246, 246, 1);
+  --makyeetestframerwebsitewoodsmoke: rgba(14, 14, 16, 1);
+  --makyeetestframerwebsitezircon: rgba(249, 251, 255, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    border: 1px solid var(--border);
+  }
+
+  body {
+    /* @apply bg-background text-foreground; */
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "title": "List, Buy, and Earn with ",
+    "subtitle": "Download now, start your property transaction!",
+    "trustedBy": "Trusted by all the developers in UAE"
+  },
+  "nav": {
+    "features": "Features",
+    "testimonials": "Testimonials",
+    "faqs": "FAQ's",
+    "contact": "Contact"
+  },
+  "commission": {
+    "title": "How you get Highest Commission?",
+    "subtitle": "with our MAKYEE PRO",
+    "immediate": {
+      "title": "80% Immediate Withdraw",
+      "description": "Get instant access to 80% of your commission as soon as the transaction is confirmed. No long waits, just fast payouts!"
+    },
+    "completion": {
+      "title": "100% Commission on Completion",
+      "description": "Earn your full commission once the property transaction is successfully completed."
+    }
+  },
+  "stats": {
+    "property": "Listed Property",
+    "users": "Verified Users",
+    "developers": "Developers"
+  },
+  "buttons": {
+    "learnMore": "Learn more",
+    "download": "Download",
+    "chatWithUs": "Chat with Us"
+  }
+}
